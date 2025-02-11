@@ -1,0 +1,75 @@
+/* left section///////////////////////////////////// */
+
+.hero {
+  margin-top: 3rem;
+}
+section .left-section {
+  flex-grow: 1;
+}
+section .parent {
+  align-items: end;
+  gap: 0.6rem;
+  min-height: 90px;
+
+}
+section .avatar {
+  width: 95px;
+  border-radius: 50%;
+  border: 1px solid darkorange;
+  padding: 1px;
+
+  box-shadow: 2px 2px 40px rgba(203, 200, 200, 0.586) inset;
+}
+.icon-verified {
+  color: var(--blue);
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+/* title-------------------------- */
+.hero .title {
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 24px 0;
+  color: var(--title);
+}
+
+.hero .sup-title {
+  color: var(--sup-title);
+  font-size: 0.9rem;
+  line-height: 1.65rem;
+  margin-bottom: 32px;
+  width: 80%;
+}
+
+.hero .icons {
+  font-size: 1.2rem !important;
+  gap: 1.5rem !important;
+  color: var(--sup-title) !important;
+ 
+}
+.hero .icons .icon {
+  transition: 0.3s;
+}
+.hero .icons .icon:hover {
+  font-size: 1.3rem;
+  cursor: pointer;
+  color: var(--icon-hover);
+}
+a{
+  color: var(--icon-hover) !important;
+}
+/* --------------------------animation------------------------------------- */
+
+.lap {
+  width: 200rem;
+  translate: 100px 55px;
+}
+@media (max-width: 1000px) {
+  .hero {
+    /* display:flex ;
+    flex-wrap: wrap; */
+  }
+  .lap{
+   display: none;
+  }
+}

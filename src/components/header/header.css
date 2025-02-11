@@ -1,0 +1,134 @@
+header ul {
+  gap: 16px;
+}
+header ul li a {
+  color: var(--title);
+  opacity: 0.9;
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+header ul li a:hover {
+  color: var(--blue);
+  opacity: 1;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 0 2.4rem;
+  margin-top: 1.2rem;
+}
+header nav {
+  background-color: var(--bgheader);
+  padding: 0.77rem 1.6rem;
+  border-radius: 55px;
+  box-shadow: 1px 1px 48px #2323242a;
+}
+header button {
+  font-size: 1.2rem;
+}
+header .menu {
+  display: none;
+}
+/* icon button  */
+header .mood,
+header .icon-menu {
+  background-color: var(--bgheader);
+  height: 2.4rem;
+  width: 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  color: var(--sup-title);
+  border: 1px solid rgba(244, 165, 96, 0.249);
+  transition: 0.7s;
+  box-shadow:  1px 1px 40px rgba(35 ,35 ,36 ,0.165) ;
+}
+
+header .mood:hover,
+header .icon-menu:hover {
+  color: var(--title);
+  border: 1px solid rgb(244, 165, 96);
+
+}
+header .icon-close{
+font-size: 1.3rem;
+color: var(--sup-title);
+transition: 0.4s;
+}
+header .icon-close:hover{
+    font-size: 1.6rem;
+    color:#f4a560e4; 
+   rotate: 180deg;
+   transition: .5s;
+}
+.sun{
+  color: rgb(255, 165, 0) ;
+}
+/* model */
+
+header .fixed {
+  position: fixed;
+  inset: 0;
+  z-index: 5;
+  background-color: rgba(40, 40, 48, 0.91);
+  backdrop-filter: blur(5px);
+}
+
+@keyframes move {
+  0% {
+    scale: 0;
+  }
+  60% {
+    scale: 1.2;
+  }
+
+  100% {
+    scale: 1;
+  }
+}
+header .fixed ul {
+  animation: move 0.9s 1;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  background: var(--secondary);
+}
+header .fixed ul li {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+header .fixed ul li:last-child {
+  border-bottom: none;
+}
+header .fixed ul li:first-child {
+  text-align: right;
+  border-bottom: none;
+  padding: 0.77rem;
+  margin-bottom: -2.9rem;
+}
+header .fixed ul li a {
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 750px) {
+  header nav {
+    display: none;
+  }
+  header .menu {
+    display: block;
+  }
+}
+@media (min-width: 750px) {
+  header .menu {
+    display: none;
+  }
+}
