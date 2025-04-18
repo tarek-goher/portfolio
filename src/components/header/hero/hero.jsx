@@ -34,7 +34,7 @@ export default function Hero() {
           I am Tarek Abdelkareem Hanafy, a front-end developer specialized in  HTML, CSS, JavaScript,
           Bootstrap, react , Next jS , Redux, Tailwind, Material UI. I design sleek, modern,
           and responsive web interfaces using Material Design principles.
-          Explore my portfolio to see my work and projects."
+          Explore my portfolio to see my work and projects.
         </p>
         <div className="icons flex">
           {/* <div className="icon-facebook2 icon ">

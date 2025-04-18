@@ -4,6 +4,16 @@ import { motion, AnimatePresence } from "framer-motion";
 const myproject = [
   {
     category: ["react", ],
+    link: "assets/imge-13.png"
+    ,
+    title: "CodeSphere /React",
+    suptitle: "We offer web design and development services using React, UI design, and mobile app development for an exceptional experience on smartphones.",
+    linkproject: "https://tarek-goher.github.io/CodeSphere/",
+    linkgithub: "https://github.com/tarek-goher/CodeSphere.git",
+    more:"https://github.com/tarek-goher/CodeSphere.git",
+  },
+  {
+    category: ["react", ],
     link: "assets/imge-1.png"
     ,
     title: "Dashboard /Material UI",
@@ -13,14 +23,15 @@ const myproject = [
     more:"https://github.com/tarek-goher/Dashboard.git",
   },
   {
-    category: ["html", "css", "java"],
-    link: "assets/imge-2.png",
-    title: "crude",
-    suptitle:"A Product Management System using HTML, CSS, and JavaScript for managing products and calculating total price with taxes, ads, and discounts.",
-    linkproject: "https://tarek-goher.github.io/CRUDS/",
-    linkgithub: "https://github.com/tarek-goher/CRUDS",
-    more:"https://github.com/tarek-goher/CRUDS",
+    category: [" Tailwind ", "react" ,"Component" ],
+    link: "assets/imge-3.png",
+    title: "E-commerce",
+    suptitle:"An E-commerce website built with React js and Tailwind",
+    linkproject: "https://tarek-goher.github.io/Store/",
+    linkgithub: "https://github.com/tarek-goher/Store.git",
+    more:"https://github.com/tarek-goher/Store.git",
   },
+ 
   {
     category: ["react"],
     link: "assets/imge-9.png",
@@ -29,6 +40,15 @@ const myproject = [
     linkproject: "https://tarek-goher.github.io/E-commerce/",
     linkgithub: "https://github.com/tarek-goher/E-commerce.git",
     more:"https://github.com/tarek-goher/E-commerce.git",
+  },
+  {
+    category: ["html", "css", "java"],
+    link: "assets/imge-2.png",
+    title: "crude",
+    suptitle:"A Product Management System using HTML, CSS, and JavaScript for managing products and calculating total price with taxes, ads, and discounts.",
+    linkproject: "https://tarek-goher.github.io/CRUDS/",
+    linkgithub: "https://github.com/tarek-goher/CRUDS",
+    more:"https://github.com/tarek-goher/CRUDS",
   },
   {
     category: ["html", "css", "java"],
@@ -41,7 +61,7 @@ const myproject = [
   },
   {
     category: ["html", "css", "java"],
-    link: "assets/imge-3.png",
+    link: "assets/imge-12.png",
     title: "Animation-dark-mood",
     suptitle: "A simple website with a dark theme, dynamic background, and animated elements like stars and the moon, built with HTML, CSS, and JavaScript,ٍ",
     linkproject: "https://tarek-goher.github.io/Animation-dark-mood/",
