@@ -28,12 +28,11 @@ export default function Hero() {
           transition={{ duration: 2 }}
           className="title"
         >
-          Tarek Abdelkarim - Front-End Developer | HTML, CSS, JavaScript,
-          Bootstrap, react , Material UI
+          Tarek Abdelkarim - Front-End Developer 
         </motion.h1>
         <p className="sup-title">
-          I am Tarek Abdelkareem, a front-end developer specialized in HTML,
-          CSS, JavaScript, Bootstrap, and react, Material UI. I design sleek, modern,
+          I am Tarek Abdelkareem Hanafy, a front-end developer specialized in  HTML, CSS, JavaScript,
+          Bootstrap, react , Next jS , Redux, Tailwind, Material UI. I design sleek, modern,
           and responsive web interfaces using Material Design principles.
           Explore my portfolio to see my work and projects."
         </p>
