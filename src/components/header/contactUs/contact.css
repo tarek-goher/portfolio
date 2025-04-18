@@ -1,0 +1,102 @@
+.contact .icon-envelope {
+  color: var(--sup-title);
+  margin-right: 1rem;
+  font-size: 1.8rem;
+}
+
+.contact .title {
+  font-size: 2.1rem;
+  color: var(--title);
+  margin-bottom: 1rem;
+}
+.contact .sup-title {
+  color: var(--sup-title);
+  margin-bottom: 2rem;
+  line-height: 1.65rem;
+}
+.contact .form label {
+  color: var(--sup-title);
+}
+.contact .form #email,
+.contact .form #massage {
+  all: unset;
+  background-color: rgba(36, 36, 70, 0.15);
+  border: 1px solid rgb(63 63 70);
+  width: 16rem;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+  transition: 0.5s;
+  font-size: 1.1rem;
+}
+.light .contact .form #email,
+.light .contact .form #massage {
+  background-color: #ffffff1d;
+  color: #232324;
+  border: 1px solid rgba(128, 128, 128, 0.451);
+  box-shadow: 1px 1px 1px rgba(73, 73, 75, 0.105);
+}
+.contact .form #email:focus,
+.contact .form #massage:focus,
+.contact .form #email:hover,
+.contact .form #massage:hover {
+  border: 1px solid var(--blue);
+}
+.light .contact .form #email:focus,
+.light .contact .form #massage:focus,
+.light .contact .form #email:hover,
+.light .contact .form #massage:hover {
+  border: 1px solid rgb( 78, 80 ,80 );
+}
+
+.contact .form #massage {
+  min-height: 9rem;
+  resize: vertical;
+}
+.contact button {
+  background-color: rgba(36, 37, 46, 1);
+  padding: 0.75rem 1.9rem;
+  /* padding: 0.7rem 0; */
+  text-align: center;
+  font-size: 1.05rem;
+  text-transform: capitalize;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin-top: 1.8rem;
+  border: 1px solid var(--blue);
+}
+.contact button:hover {
+  scale: 0.97;
+}
+.animation {
+  display: none;
+}
+@media (max-width: 550px) {
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+  }
+  form .flex {
+    flex-direction: column;
+    align-items: start;
+    /* gap: 10px; */
+  }
+  .contact .form #email,
+  .contact .form #massage {
+    width: 100%;
+    margin-left: 0;
+    padding: 0.8rem 0;
+    margin-top: 1rem;
+  }
+  .contact button {
+    width: 50%;
+    align-self: center;
+  }
+}
+
+@media (max-width:900px){
+  .massege-animation{
+    display: none
+  }
+}
